@@ -1,0 +1,163 @@
+# =========================
+
+# OS / SYSTEM FILES
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# PYTHON
+
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+
+*.so
+
+# Distribution / packaging
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+
+# VIRTUAL ENVIRONMENTS
+
+# =========================
+
+venv/
+.env/
+env/
+ENV/
+.venv/
+
+# =========================
+
+# JUPYTER NOTEBOOK
+
+# =========================
+
+.ipynb_checkpoints
+
+# =========================
+
+# DATA FILES (ML)
+
+# =========================
+
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.parquet
+*.h5
+*.hdf5
+
+# =========================
+
+# MODEL FILES (ML)
+
+# =========================
+
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# =========================
+
+# LOGS
+
+# =========================
+
+logs/
+*.log
+
+# =========================
+
+# ENVIRONMENT VARIABLES
+
+# =========================
+
+.env
+.env.*
+
+# =========================
+
+# IDEs
+
+# =========================
+
+# IntelliJ / PyCharm
+
+.idea/
+
+# VS Code
+
+.vscode/
+
+# =========================
+
+# TEST / COVERAGE
+
+# =========================
+
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+
+# =========================
+
+# MISC
+
+# =========================
+
+*.swp
+*.tmp
+*.bak
+
+# =========================
+
+# MLFLOW (lokalni tracking — rezultati su u artifacts/)
+
+# =========================
+
+mlruns/
+mlflow.db
+
+# =========================
+
+# DATABASE / BACKUPS
+
+# =========================
+
+*.db
